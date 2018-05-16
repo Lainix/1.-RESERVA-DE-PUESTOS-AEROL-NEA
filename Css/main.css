@@ -1,0 +1,74 @@
+body {
+    background-color: #D4DCF7;
+}
+
+h1 {
+    color: #170558;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 40px;
+    border-bottom: 3px double salmon;
+}
+
+#btn {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    border: none;
+    border-radius: 10px;
+    background-color: #af3bb3;
+    color: #fff;
+    padding: 10px;
+    margin-right:20px; 
+}
+
+#btn:hover, .first_class:hover, .economic_class:hover {
+    cursor: pointer;
+    background-color: #fff;
+    border: 1px solid #af3bb3;
+    color: #af3bb3;
+}
+
+.tags {
+    display: flex;
+    margin: 30px;
+    font-size: 20px;
+}
+
+.first_class {
+    background-color: #1AC097;
+    border-radius: 10%;
+    border: 1px solid #1AC097;
+    margin: 10px;
+    padding: 5px;
+    color: white;
+}
+
+.economic_class {
+    background-color: #0051FF;
+    border-radius: 10%;
+    border: 1px solid #0051FF;
+    margin: 10px;
+    padding: 5px;
+    color: white;
+}
+
+.section_two {
+    border-top: 3px double salmon;
+}
+
+.seats {
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 18px;
+    text-shadow: -1px -1px 1px #000, 1px 1px 1px #000, -1px 1px 1px #000, 1px -1px 1px #000;
+    color: white;
+    display: inline-block;
+    width: 110px;
+    height: 210px;
+    border: 1px solid salmon;
+    border-radius: 10%;
+}
+
+.seats:hover {
+    opacity: .5;
+}
